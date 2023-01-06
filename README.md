@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+from hu import DottedDict
+dd = DottedDict({"first": {"second": [{}, {}, {"third": "bingo"}]}})
+assert dd["first.second[2].third"] == "bingo"
