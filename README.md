@@ -15,6 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-from hu import DottedDict
-dd = DottedDict({"first": {"second": [{}, {}, {"third": "bingo"}]}})
-assert dd["first.second[2].third"] == "bingo"
+![image](https://user-images.githubusercontent.com/122053040/211005310-c04c3ca6-b635-4d0e-bcc2-8b3a06abbc55.png)
